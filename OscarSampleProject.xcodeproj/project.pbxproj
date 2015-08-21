@@ -10,18 +10,18 @@
 		179A45592C7FE3078BBE2999 /* libPods-OscarSampleProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AADC64E7A0FDD790B29772A /* libPods-OscarSampleProject.a */; };
 		4D8550011B87436200D7CBC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8550001B87436200D7CBC1 /* main.m */; };
 		4D8550041B87436200D7CBC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8550031B87436200D7CBC1 /* AppDelegate.m */; };
-		4D8550071B87436200D7CBC1 /* OSPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8550061B87436200D7CBC1 /* OSPLoginViewController.m */; };
-		4D85500A1B87436200D7CBC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8550081B87436200D7CBC1 /* Main.storyboard */; };
 		4D85500C1B87436200D7CBC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D85500B1B87436200D7CBC1 /* Images.xcassets */; };
 		4D85500F1B87436200D7CBC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D85500D1B87436200D7CBC1 /* LaunchScreen.xib */; };
 		4D8550251B87557B00D7CBC1 /* OSPSessionActorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8550241B87557B00D7CBC1 /* OSPSessionActorTest.m */; };
-		4D8550261B87612100D7CBC1 /* OSPTwitterLoginActor.m in Sources */ = {isa = PBXBuildFile; fileRef = C14208B8709A44880E5341E4 /* OSPTwitterLoginActor.m */; };
 		4D8550281B87644500D7CBC1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8550271B87644500D7CBC1 /* Accounts.framework */; };
+		4D85502A1B87760700D7CBC1 /* OSPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8550291B87760700D7CBC1 /* OSPLoginViewController.xib */; };
 		9613BD23FB914B6DB202B80E /* libPods-OscarSampleProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BA62FE3A38767E71511077 /* libPods-OscarSampleProjectTests.a */; };
+		C14201E7A777B43BEC54D13F /* OSPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C14204E72C0C905C5D3880D6 /* OSPLoginViewController.m */; };
 		C142022FD86C64EC7F02D26D /* OSPActorSystemMock.m in Sources */ = {isa = PBXBuildFile; fileRef = C1420AF085424CDEA90523B7 /* OSPActorSystemMock.m */; };
-		C1420258F1D33F6B896D7EB1 /* OSPSessionActor.m in Sources */ = {isa = PBXBuildFile; fileRef = C142060C0A73DF969540C025 /* OSPSessionActor.m */; };
+		C14204859516C79D5772203E /* OSPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C14200F020CDC5D5A3624317 /* OSPUser.m */; };
+		C1420563FC6FBB78F8F2B81C /* OSPSessionActor.m in Sources */ = {isa = PBXBuildFile; fileRef = C14201ACDA6AB3FD62CCDB41 /* OSPSessionActor.m */; };
 		C1420A73E0DFA3DBE1592837 /* OSPromiseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C1420AF41843457AA948DCEE /* OSPromiseMatcher.m */; };
-		C1420EE0AA890D70A82398FD /* OSPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C1420E00A39B8BFDD1AD6C75 /* OSPUser.m */; };
+		C1420E76CA2E9424E4AFA2BF /* OSPTwitterLoginActor.m in Sources */ = {isa = PBXBuildFile; fileRef = C1420A82F0B5165D42EFD7B3 /* OSPTwitterLoginActor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,27 +43,27 @@
 		4D8550001B87436200D7CBC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D8550021B87436200D7CBC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D8550031B87436200D7CBC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4D8550051B87436200D7CBC1 /* OSPLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSPLoginViewController.h; sourceTree = "<group>"; };
-		4D8550061B87436200D7CBC1 /* OSPLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSPLoginViewController.m; sourceTree = "<group>"; };
-		4D8550091B87436200D7CBC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D85500B1B87436200D7CBC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D85500E1B87436200D7CBC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4D8550141B87436200D7CBC1 /* OscarSampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OscarSampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8550191B87436200D7CBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D8550241B87557B00D7CBC1 /* OSPSessionActorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPSessionActorTest.m; sourceTree = "<group>"; };
 		4D8550271B87644500D7CBC1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		4D8550291B87760700D7CBC1 /* OSPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSPLoginViewController.xib; sourceTree = "<group>"; };
 		56D18FE32C32C65B36AFA75C /* Pods-OscarSampleProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OscarSampleProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OscarSampleProjectTests/Pods-OscarSampleProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		AF0B6160CCA2A72A3291C679 /* Pods-OscarSampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OscarSampleProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-OscarSampleProject/Pods-OscarSampleProject.release.xcconfig"; sourceTree = "<group>"; };
-		C14200D2777B15CD36FB70A8 /* OSPSessionActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPSessionActor.h; sourceTree = "<group>"; };
+		C14200F020CDC5D5A3624317 /* OSPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPUser.m; sourceTree = "<group>"; };
+		C14201ACDA6AB3FD62CCDB41 /* OSPSessionActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPSessionActor.m; sourceTree = "<group>"; };
 		C14204D0C53A66C4191D075A /* OSPActorSystemMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPActorSystemMock.h; sourceTree = "<group>"; };
-		C142060C0A73DF969540C025 /* OSPSessionActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPSessionActor.m; sourceTree = "<group>"; };
-		C1420700F91870ACD0E9BA64 /* OSPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPUser.h; sourceTree = "<group>"; };
-		C14208B8709A44880E5341E4 /* OSPTwitterLoginActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPTwitterLoginActor.m; sourceTree = "<group>"; };
+		C14204E72C0C905C5D3880D6 /* OSPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPLoginViewController.m; sourceTree = "<group>"; };
 		C14209B9CD0709B4BB1DA706 /* OSPromiseMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPromiseMatcher.h; sourceTree = "<group>"; };
+		C1420A82F0B5165D42EFD7B3 /* OSPTwitterLoginActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPTwitterLoginActor.m; sourceTree = "<group>"; };
 		C1420AF085424CDEA90523B7 /* OSPActorSystemMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPActorSystemMock.m; sourceTree = "<group>"; };
 		C1420AF41843457AA948DCEE /* OSPromiseMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPromiseMatcher.m; sourceTree = "<group>"; };
-		C1420D2FA1DA812BF76D3CAD /* OSPTwitterLoginActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPTwitterLoginActor.h; sourceTree = "<group>"; };
-		C1420E00A39B8BFDD1AD6C75 /* OSPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPUser.m; sourceTree = "<group>"; };
+		C1420B2A6B1CBC8DDEA97ACB /* OSPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPUser.h; sourceTree = "<group>"; };
+		C1420BA087C0DF80595223EF /* OSPTwitterLoginActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPTwitterLoginActor.h; sourceTree = "<group>"; };
+		C1420EEFF3B2D3C219EF4C7C /* OSPSessionActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPSessionActor.h; sourceTree = "<group>"; };
+		C1420FB064E3B92C9D58F8B7 /* OSPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPLoginViewController.h; sourceTree = "<group>"; };
 		D4BA62FE3A38767E71511077 /* libPods-OscarSampleProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OscarSampleProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,18 +113,12 @@
 			children = (
 				4D8550021B87436200D7CBC1 /* AppDelegate.h */,
 				4D8550031B87436200D7CBC1 /* AppDelegate.m */,
-				4D8550051B87436200D7CBC1 /* OSPLoginViewController.h */,
-				4D8550061B87436200D7CBC1 /* OSPLoginViewController.m */,
-				4D8550081B87436200D7CBC1 /* Main.storyboard */,
 				4D85500B1B87436200D7CBC1 /* Images.xcassets */,
 				4D85500D1B87436200D7CBC1 /* LaunchScreen.xib */,
 				4D854FFE1B87436200D7CBC1 /* Supporting Files */,
-				C142060C0A73DF969540C025 /* OSPSessionActor.m */,
-				C14200D2777B15CD36FB70A8 /* OSPSessionActor.h */,
-				C1420D2FA1DA812BF76D3CAD /* OSPTwitterLoginActor.h */,
-				C14208B8709A44880E5341E4 /* OSPTwitterLoginActor.m */,
-				C1420E00A39B8BFDD1AD6C75 /* OSPUser.m */,
-				C1420700F91870ACD0E9BA64 /* OSPUser.h */,
+				C14209F58F2DFB5D62CC31C1 /* Actors */,
+				C14208CA23C8D58417E0B6B8 /* Model */,
+				C14207A61D47B8407CB0205F /* View */,
 			);
 			path = OscarSampleProject;
 			sourceTree = "<group>";
@@ -179,6 +173,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C14207A61D47B8407CB0205F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C14204E72C0C905C5D3880D6 /* OSPLoginViewController.m */,
+				C1420FB064E3B92C9D58F8B7 /* OSPLoginViewController.h */,
+				4D8550291B87760700D7CBC1 /* OSPLoginViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C1420803C65D807C869C162B /* Promise Matcher */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +190,26 @@
 				C1420AF41843457AA948DCEE /* OSPromiseMatcher.m */,
 			);
 			path = "Promise Matcher";
+			sourceTree = "<group>";
+		};
+		C14208CA23C8D58417E0B6B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1420B2A6B1CBC8DDEA97ACB /* OSPUser.h */,
+				C14200F020CDC5D5A3624317 /* OSPUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C14209F58F2DFB5D62CC31C1 /* Actors */ = {
+			isa = PBXGroup;
+			children = (
+				C1420A82F0B5165D42EFD7B3 /* OSPTwitterLoginActor.m */,
+				C1420BA087C0DF80595223EF /* OSPTwitterLoginActor.h */,
+				C1420EEFF3B2D3C219EF4C7C /* OSPSessionActor.h */,
+				C14201ACDA6AB3FD62CCDB41 /* OSPSessionActor.m */,
+			);
+			path = Actors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D85500A1B87436200D7CBC1 /* Main.storyboard in Resources */,
+				4D85502A1B87760700D7CBC1 /* OSPLoginViewController.xib in Resources */,
 				4D85500F1B87436200D7CBC1 /* LaunchScreen.xib in Resources */,
 				4D85500C1B87436200D7CBC1 /* Images.xcassets in Resources */,
 			);
@@ -355,12 +379,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8550071B87436200D7CBC1 /* OSPLoginViewController.m in Sources */,
 				4D8550041B87436200D7CBC1 /* AppDelegate.m in Sources */,
 				4D8550011B87436200D7CBC1 /* main.m in Sources */,
-				C1420258F1D33F6B896D7EB1 /* OSPSessionActor.m in Sources */,
-				4D8550261B87612100D7CBC1 /* OSPTwitterLoginActor.m in Sources */,
-				C1420EE0AA890D70A82398FD /* OSPUser.m in Sources */,
+				C1420E76CA2E9424E4AFA2BF /* OSPTwitterLoginActor.m in Sources */,
+				C1420563FC6FBB78F8F2B81C /* OSPSessionActor.m in Sources */,
+				C14204859516C79D5772203E /* OSPUser.m in Sources */,
+				C14201E7A777B43BEC54D13F /* OSPLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,14 +409,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4D8550081B87436200D7CBC1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D8550091B87436200D7CBC1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D85500D1B87436200D7CBC1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

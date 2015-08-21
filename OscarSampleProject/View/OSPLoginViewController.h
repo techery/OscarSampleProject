@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class OSMainActorSystem;
+
 @interface OSPLoginViewController : UIViewController
 
+- (instancetype)initWithActorSystem:(OSMainActorSystem *)actorSystem;
++ (instancetype)controllerWithActorSystem:(OSMainActorSystem *)actorSystem;
 
 @end
 

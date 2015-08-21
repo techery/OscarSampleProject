@@ -28,11 +28,15 @@
         [[NSOperationQueue mainQueue] addOperationWithBlock:^{
 
             if(!granted) {
-                [promise rejectWithReason:error];
+                [promise rejectWithReason:@"Access not granted"];
                 return;
             }
 
             ACAccount *account = [[accountStore accountsWithAccountType:accountType] firstObject];
+            if (!account) {
+                [promise rejectWithReason:@"No system Twitter account"];
+            }
+            
             OSPTwitterUser *user = [[OSPTwitterUser alloc] initWithName:account.username];
             [promise resolveWithResult:user];
         }];

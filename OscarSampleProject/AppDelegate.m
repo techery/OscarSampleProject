@@ -6,7 +6,11 @@
 //  Copyright (c) 2015 Techery. All rights reserved.
 //
 
+#import <Oscar/OSActorSystem.h>
 #import "AppDelegate.h"
+#import "OSPLoginViewController.h"
+#import "OSPSessionActor.h"
+#import "OSPTwitterLoginActor.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +20,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
+    OSMainActorSystem *actorSystem = [[OSMainActorSystem alloc] initWithConfigs:nil serviceLocator:nil builderBlock:^(OSActorSystemBuilder *builder) {
+        [builder addSingleton:[OSPSessionActor class]];
+        [builder addSingleton:[OSPTwitterLoginActor class]];
+    }];
+
+    self.window.rootViewController = [OSPLoginViewController controllerWithActorSystem:actorSystem];
+
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
