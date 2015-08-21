@@ -1,0 +1,1 @@
+../../../Oscar/Pod/Classes/ActorProvider/OSSingletonActorProvider.h

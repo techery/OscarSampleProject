@@ -1,0 +1,25 @@
+PODS:
+  - Kiwi (2.4.0)
+  - Oscar (0.1):
+    - RXPromise (~> 0.13)
+  - RXPromise (0.13.1)
+
+DEPENDENCIES:
+  - Kiwi
+  - Oscar (from `https://github.com/Techery/Oscar.git`)
+
+EXTERNAL SOURCES:
+  Oscar:
+    :git: https://github.com/Techery/Oscar.git
+
+CHECKOUT OPTIONS:
+  Oscar:
+    :commit: 4a61105cba363e33acf0a6c8b128158ad578e89c
+    :git: https://github.com/Techery/Oscar.git
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  Oscar: 2eee426d8e1f56ca721bab42df3dd73bf2b3323b
+  RXPromise: 1aaff7ad7ac17c7e8dd9ea0169d13ed8df3654d2
+
+COCOAPODS: 0.38.2
