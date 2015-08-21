@@ -4,18 +4,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Oscar/OSActor.h>
 
 
-@interface OSPTwitterLoginActor : OSActor
-@end
-
-/// Message
-@interface OSPTwitterLogin: NSObject
-@end
-
-/// Result
-@interface OSPTwitterUser: NSObject
+@interface OSPUser : NSObject
 @property (nonatomic, readonly, copy) NSString *name;
 - (instancetype)initWithName:(NSString *)name;
 @end

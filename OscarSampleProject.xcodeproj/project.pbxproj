@@ -16,9 +16,12 @@
 		4D85500F1B87436200D7CBC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D85500D1B87436200D7CBC1 /* LaunchScreen.xib */; };
 		4D8550251B87557B00D7CBC1 /* OSPSessionActorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8550241B87557B00D7CBC1 /* OSPSessionActorTest.m */; };
 		4D8550261B87612100D7CBC1 /* OSPTwitterLoginActor.m in Sources */ = {isa = PBXBuildFile; fileRef = C14208B8709A44880E5341E4 /* OSPTwitterLoginActor.m */; };
+		4D8550281B87644500D7CBC1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8550271B87644500D7CBC1 /* Accounts.framework */; };
 		9613BD23FB914B6DB202B80E /* libPods-OscarSampleProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BA62FE3A38767E71511077 /* libPods-OscarSampleProjectTests.a */; };
 		C142022FD86C64EC7F02D26D /* OSPActorSystemMock.m in Sources */ = {isa = PBXBuildFile; fileRef = C1420AF085424CDEA90523B7 /* OSPActorSystemMock.m */; };
 		C1420258F1D33F6B896D7EB1 /* OSPSessionActor.m in Sources */ = {isa = PBXBuildFile; fileRef = C142060C0A73DF969540C025 /* OSPSessionActor.m */; };
+		C1420A73E0DFA3DBE1592837 /* OSPromiseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C1420AF41843457AA948DCEE /* OSPromiseMatcher.m */; };
+		C1420EE0AA890D70A82398FD /* OSPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C1420E00A39B8BFDD1AD6C75 /* OSPUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +51,19 @@
 		4D8550141B87436200D7CBC1 /* OscarSampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OscarSampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8550191B87436200D7CBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D8550241B87557B00D7CBC1 /* OSPSessionActorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPSessionActorTest.m; sourceTree = "<group>"; };
+		4D8550271B87644500D7CBC1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		56D18FE32C32C65B36AFA75C /* Pods-OscarSampleProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OscarSampleProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OscarSampleProjectTests/Pods-OscarSampleProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		AF0B6160CCA2A72A3291C679 /* Pods-OscarSampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OscarSampleProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-OscarSampleProject/Pods-OscarSampleProject.release.xcconfig"; sourceTree = "<group>"; };
 		C14200D2777B15CD36FB70A8 /* OSPSessionActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPSessionActor.h; sourceTree = "<group>"; };
 		C14204D0C53A66C4191D075A /* OSPActorSystemMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPActorSystemMock.h; sourceTree = "<group>"; };
 		C142060C0A73DF969540C025 /* OSPSessionActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPSessionActor.m; sourceTree = "<group>"; };
+		C1420700F91870ACD0E9BA64 /* OSPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPUser.h; sourceTree = "<group>"; };
 		C14208B8709A44880E5341E4 /* OSPTwitterLoginActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPTwitterLoginActor.m; sourceTree = "<group>"; };
+		C14209B9CD0709B4BB1DA706 /* OSPromiseMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPromiseMatcher.h; sourceTree = "<group>"; };
 		C1420AF085424CDEA90523B7 /* OSPActorSystemMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPActorSystemMock.m; sourceTree = "<group>"; };
+		C1420AF41843457AA948DCEE /* OSPromiseMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPromiseMatcher.m; sourceTree = "<group>"; };
 		C1420D2FA1DA812BF76D3CAD /* OSPTwitterLoginActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPTwitterLoginActor.h; sourceTree = "<group>"; };
+		C1420E00A39B8BFDD1AD6C75 /* OSPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPUser.m; sourceTree = "<group>"; };
 		D4BA62FE3A38767E71511077 /* libPods-OscarSampleProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OscarSampleProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -64,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8550281B87644500D7CBC1 /* Accounts.framework in Frameworks */,
 				179A45592C7FE3078BBE2999 /* libPods-OscarSampleProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +123,8 @@
 				C14200D2777B15CD36FB70A8 /* OSPSessionActor.h */,
 				C1420D2FA1DA812BF76D3CAD /* OSPTwitterLoginActor.h */,
 				C14208B8709A44880E5341E4 /* OSPTwitterLoginActor.m */,
+				C1420E00A39B8BFDD1AD6C75 /* OSPUser.m */,
+				C1420700F91870ACD0E9BA64 /* OSPUser.h */,
 			);
 			path = OscarSampleProject;
 			sourceTree = "<group>";
@@ -134,6 +145,7 @@
 				4D8550241B87557B00D7CBC1 /* OSPSessionActorTest.m */,
 				C14204D0C53A66C4191D075A /* OSPActorSystemMock.h */,
 				C1420AF085424CDEA90523B7 /* OSPActorSystemMock.m */,
+				C1420803C65D807C869C162B /* Promise Matcher */,
 			);
 			path = OscarSampleProjectTests;
 			sourceTree = "<group>";
@@ -149,6 +161,7 @@
 		6DE6775AEB213CA1885C049F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D8550271B87644500D7CBC1 /* Accounts.framework */,
 				2AADC64E7A0FDD790B29772A /* libPods-OscarSampleProject.a */,
 				D4BA62FE3A38767E71511077 /* libPods-OscarSampleProjectTests.a */,
 			);
@@ -164,6 +177,15 @@
 				56D18FE32C32C65B36AFA75C /* Pods-OscarSampleProjectTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1420803C65D807C869C162B /* Promise Matcher */ = {
+			isa = PBXGroup;
+			children = (
+				C14209B9CD0709B4BB1DA706 /* OSPromiseMatcher.h */,
+				C1420AF41843457AA948DCEE /* OSPromiseMatcher.m */,
+			);
+			path = "Promise Matcher";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +360,7 @@
 				4D8550011B87436200D7CBC1 /* main.m in Sources */,
 				C1420258F1D33F6B896D7EB1 /* OSPSessionActor.m in Sources */,
 				4D8550261B87612100D7CBC1 /* OSPTwitterLoginActor.m in Sources */,
+				C1420EE0AA890D70A82398FD /* OSPUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +370,7 @@
 			files = (
 				4D8550251B87557B00D7CBC1 /* OSPSessionActorTest.m in Sources */,
 				C142022FD86C64EC7F02D26D /* OSPActorSystemMock.m in Sources */,
+				C1420A73E0DFA3DBE1592837 /* OSPromiseMatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

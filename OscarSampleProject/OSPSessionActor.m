@@ -5,6 +5,7 @@
 
 #import "OSPSessionActor.h"
 #import "OSPTwitterLoginActor.h"
+#import "OSPUser.h"
 #import <Oscar/OSActors.h>
 
 @interface OSPSessionActor ()
@@ -17,7 +18,12 @@
     [self on:[OSPLogin class] doFuture:^RXPromise *(id o) {
         OSActorRef *twitterLoginActor = [self.actorSystem actorOfClass:[OSPTwitterLoginActor class] caller:self];
 
-        return [twitterLoginActor ask:[OSPTwitterLogin new]];
+        RXPromise *result = [twitterLoginActor ask:[OSPTwitterLogin new]];
+        result.then(^id(OSPTwitterUser *twitterUser) {
+            return [[OSPUser alloc] initWithName:twitterUser.name];
+        }, nil);
+        
+        return result;
     }];
 }
 
